@@ -1,13 +1,25 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import Academics from "./pages/Academics";
+import Fiction from "./pages/Fiction";
+import NonFiction from "./pages/NonFiction";
+import YoungAdults from "./pages/YoungAdults";
+import ComicsGraphics from "./pages/ComicsGraphics";
+import Childrens from "./pages/Childrens";
+
 function App() {
   return (
-    <>
-      <div className="text-5xl font-hh font-bold mb-5 text-white  bg-customGreen">
-        hello boyy
-      </div>
-      <h1 className="bg-customRed font-hh font-bold text-yellow-50">
-        djkchjkedf
-      </h1>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/academics" element={<Academics />} />
+        <Route path="/fiction" element={<Fiction />} />
+        <Route path="/nonfiction" element={<NonFiction />} />
+        <Route path="/childrens" element={<Childrens />} />
+        <Route path="/youngadults" element={<YoungAdults />} />
+        <Route path="/comicsandgraphics" element={<ComicsGraphics />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

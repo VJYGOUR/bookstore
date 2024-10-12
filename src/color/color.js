@@ -1,5 +1,5 @@
 export default {
-  customGreen: "#32CD32",
-  customBlue: "#1E90FF",
-  customRed: "#FF6347",
+  customGreen: "#ff6347",
+  ghh: "hsl(9, 100%, 64%)",
+  green: "green",
 };
