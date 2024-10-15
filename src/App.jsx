@@ -6,18 +6,21 @@ import NonFiction from "./pages/NonFiction";
 import YoungAdults from "./pages/YoungAdults";
 import ComicsGraphics from "./pages/ComicsGraphics";
 import Childrens from "./pages/Childrens";
+import AppLayout from "./ui/AppLayout";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/academics" element={<Academics />} />
-        <Route path="/fiction" element={<Fiction />} />
-        <Route path="/nonfiction" element={<NonFiction />} />
-        <Route path="/childrens" element={<Childrens />} />
-        <Route path="/youngadults" element={<YoungAdults />} />
-        <Route path="/comicsandgraphics" element={<ComicsGraphics />} />
+        <Route path="/" element={<AppLayout />}>
+          <Route index element={<HomePage />} />
+          <Route path="/academics" element={<Academics />} />
+          <Route path="/fiction" element={<Fiction />} />
+          <Route path="/nonfiction" element={<NonFiction />} />
+          <Route path="/childrens" element={<Childrens />} />
+          <Route path="/youngadults" element={<YoungAdults />} />
+          <Route path="/comicsandgraphics" element={<ComicsGraphics />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   );
