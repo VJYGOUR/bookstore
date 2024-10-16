@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function HomePage() {
   return (
     <>
-      <div>RajuBooks</div>
+      <div>Homepage</div>
     </>
   );
 }
