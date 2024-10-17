@@ -6,7 +6,7 @@ import NonFiction from "./pages/NonFiction";
 import YoungAdults from "./pages/YoungAdults";
 import ComicsGraphics from "./pages/ComicsGraphics";
 import Childrens from "./pages/Childrens";
-import AppLayout from "./ui/AppLayout";
+import AppLayout from "./ui/layout/AppLayout";
 
 function App() {
   return (

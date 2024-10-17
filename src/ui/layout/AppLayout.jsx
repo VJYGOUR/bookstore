@@ -8,8 +8,12 @@ import Logo from "./Logo";
 import SideBar from "./SideBar";
 import PageLink from "./PageLink";
 
+import Footer from "./Footer";
+
 function AppLayout() {
   const [sideBar, setSideBar] = useState(false);
+
+  useState();
 
   return (
     <>
@@ -33,7 +37,7 @@ function AppLayout() {
       <main>
         <Outlet />
       </main>
-      <footer></footer>
+      <Footer />
     </>
   );
 }

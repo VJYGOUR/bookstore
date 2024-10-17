@@ -1,0 +1,84 @@
+{
+  "dropdown": {
+    "topgenres": [
+      "Academics",
+      "Fiction",
+      "Non Fiction",
+      "Children",
+      "Young Adults",
+      "Comics & Graphic Novels",
+      "Languages",
+      "OFFERS"
+    ],
+    "quickLinks": [
+      "Bestsellers",
+      "New Arrivals",
+      "YT Educators",
+      "Gifting",
+      "Brand Stores",
+      "Affiliate Programme",
+      "Sitemap",
+      "BLOG"
+    ],
+    "company": [
+      "Abbout us",
+      "Who are we",
+      "Our Technology",
+      "Our Catalogue",
+      "Careers",
+      "About Repro India"
+    ],
+    "help": [
+      "Contact Us",
+      "Guest Order",
+      "Track Orders",
+      "Terms & Condition",
+      "Privacy Policy",
+      "Return & Refund",
+      "FAQs"
+    ],
+    "topAuthors": [
+      "Joseph Murphy",
+      "Osho",
+      "Neville Goddard",
+      "Sudha Murty",
+      "Ruskin Bond"
+    ],
+    "topPublishers": [
+      "Penguin Random",
+      "Arihant Publication",
+      "Oswaal Books and Learning Pvt Ltd",
+      "Notion Press",
+      "Manjul Publishing House Pvt Ltd"
+    ]
+  },
+  "app": {
+    "title": "Experience The Bookscape App",
+    "icon": ""
+  },
+  "qualities": [
+    {
+      "text": "Millions of books",
+      "icon": ""
+    },
+    {
+      "text": "Genuine books",
+      "icon": ""
+    },
+    {
+      "text": "Great Pricing",
+      "icon": ""
+    },
+    {
+      "text": "Faster Delivery",
+      "icon": ""
+    }
+  ],
+  "socialLinks": {
+    "text": "Connect with us",
+    "facebook": "",
+    "insta": "",
+    "X": ""
+  },
+  "copyRight": "Copyright c 2024 by Bookscape India"
+}
